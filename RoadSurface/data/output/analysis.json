@@ -1,0 +1,89 @@
+{
+    "input_image": "sample_road.jpg",
+    "image_width": 1280,
+    "image_height": 720,
+    "processed_width": 1280,
+    "processed_height": 720,
+    "damage_regions": 5,
+    "damage_percentage": 2.69,
+    "severity_score": 30.2,
+    "severity_level": "MEDIUM",
+    "metrics": {
+        "road_area_pixels": 921600,
+        "damage_area_pixels": 24799,
+        "largest_region_pixels": 12404,
+        "largest_region_percentage": 1.35
+    },
+    "regions": [
+        {
+            "id": 1,
+            "area_pixels": 12404,
+            "x": 391,
+            "y": 429,
+            "width": 180,
+            "height": 106,
+            "aspect_ratio": 1.7,
+            "extent": 0.65,
+            "centroid": {
+                "x": 480,
+                "y": 479
+            }
+        },
+        {
+            "id": 2,
+            "area_pixels": 7227,
+            "x": 716,
+            "y": 347,
+            "width": 129,
+            "height": 89,
+            "aspect_ratio": 1.45,
+            "extent": 0.63,
+            "centroid": {
+                "x": 779,
+                "y": 389
+            }
+        },
+        {
+            "id": 3,
+            "area_pixels": 3755,
+            "x": 290,
+            "y": 254,
+            "width": 92,
+            "height": 74,
+            "aspect_ratio": 1.24,
+            "extent": 0.55,
+            "centroid": {
+                "x": 338,
+                "y": 289
+            }
+        },
+        {
+            "id": 4,
+            "area_pixels": 1254,
+            "x": 572,
+            "y": 477,
+            "width": 218,
+            "height": 133,
+            "aspect_ratio": 1.64,
+            "extent": 0.04,
+            "centroid": {
+                "x": 676,
+                "y": 547
+            }
+        },
+        {
+            "id": 5,
+            "area_pixels": 159,
+            "x": 791,
+            "y": 611,
+            "width": 26,
+            "height": 23,
+            "aspect_ratio": 1.13,
+            "extent": 0.27,
+            "centroid": {
+                "x": 803,
+                "y": 621
+            }
+        }
+    ]
+}

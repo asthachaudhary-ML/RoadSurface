@@ -1,0 +1,4 @@
+image_name,width,height,detected_regions,damage_percentage,largest_region_percentage,severity_score,severity_level,processing_time_ms
+clean_road.jpg,1280,720,0,0.0,0.0,0.0,LOW,95.69
+sample_road.jpg,1280,720,5,2.69,1.35,30.2,MEDIUM,61.52
+severe_road.jpg,1280,720,9,7.21,3.39,63.2,HIGH,61.8
